@@ -1,0 +1,15 @@
+n = int(input("n: "))
+r = int(input("r: "))
+
+def factorial(n):
+    fact = 1
+    while (n>=1):
+        fact =fact*n
+        n= n-1
+    return fact
+    
+ 
+
+a =str(factorial(n)//factorial(n-r)) 
+print(a)    
+    

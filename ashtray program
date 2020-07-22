@@ -1,0 +1,10 @@
+vowel = []
+a = input("word:")
+
+for i in range(0,len(a)):
+    if a[i] == "a" or a[i] == "e" or a[i] == "i" or a[i] == "o" or a[i] == "u":
+        vowel = a[i::1] +   a[0:i] + "ay"
+            
+        
+print(vowel)        
+
